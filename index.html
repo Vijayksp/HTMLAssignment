@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="wrap-1">
+      <div class="container">
+        <div class="row headmain">
+          <div class="col-lg-6">
+            <img src="./IMG/Group 8309.png" class="image" alt="" />
+          </div>
+          <div class="col-lg-6 profile">
+            <img src="./IMG/profile.png" class="image" alt="" />
+            <u class="client"> <a href="">Client Name</a></u>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <aside>
+              <ul class="ulbox">
+                <li class="active">
+                  <img src="./IMG/dash.png" alt="" />
+                  <a href="">Dashboard</a>
+                </li>
+                <li>
+                  <img src="./IMG/productman.png" alt="" />
+                  <a href="">Product Management</a>
+                </li>
+                <li>
+                  <img src="./IMG/query.png" alt="" />
+                  <a href="">Query Management</a>
+                </li>
+                <li>
+                  <img src="./IMG/user.png" alt="" />
+                  <a href="">Profile</a>
+                </li>
+                <li>
+                  <img src="./IMG/rightarrow.png" alt="" />
+                  <a href="">Logout</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <!-- <main> -->
+          <div class="col-lg-9">
+            <div class="row dboard">
+              <h2>Dashboard</h2>
+              <div class="rdiv">
+                <span class="s1">Customer</span>
+                <img src="./IMG/button.png" class="s1" alt="" />
+                <span>Producer</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 .boxdiv">
+                <div class="query1">
+                  <div class="headp">
+                    <h3>Total Products</h3>
+                    <p>43</p>
+                  </div>
+                  <img
+                    src="./IMG/Vector (1).png"
+                    alt=""
+                    class="absolute boximg"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="query2">
+                  <div class="headp">
+                    <h3>Open Queries</h3>
+                    <p>240</p>
+                  </div>
+                  <img
+                    src="./IMG/Vector (2).png"
+                    alt=""
+                    class="absolute boximg"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="query3">
+                  <div class="headp">
+                    <h3>Closed Queries</h3>
+                    <p>391</p>
+                  </div>
+                  <img
+                    src="./IMG/coolicon.png"
+                    alt=""
+                    class="absolute boximg"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="row canvas_1">
+              <div class="col-lg-5">
+                <div class="chartborder1">
+                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 piechart_1">
+                  <div class="chartborder2">
+                    <canvas id="c1"></canvas>
+                    <div class="data flex ">
+                      
+                      <div class="prod">
+                          <ul>
+                            <li><div class="color color1"></div></li>
+                            <li><div class="color color2"></div></li>
+                            <li><div class="color color3"></div></li>
+                            <li><div class="color color4"></div></li>
+                          </ul>
+                      </div>
+                      <div class="percent">
+                        <div class="prod2">
+                          <ul>
+
+                            <li><div class="color color1">11%</div></li>
+                            <li><div class="color color2">12%</div></li>
+                            <li><div class="color color3">14%</div></li>
+                            <li><div class="color color4">60%</div></li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- </main> -->
+        </div>
+      </div>
+    </main>
+
+    <footer>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-2">
+                <img src="./IMG/Group 8309.png" class="footimg" alt="">
+              </div>
+              <div class="col-lg-3">
+                <ul class="footul">
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">terms and conditions</a></li>
+                  <li><a href="">About Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3" >
+                <ul class="footul">
+                  <li><a href="">Help and Support</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <ul class="footul">
+                  <li><a href="">News Letter</a></li>
+                  <li><input type="text" class="inputbtn" placeholder="Enter Email here"><button>Subscribe</button></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </footer>
+
+    <div class="footer2">
+      <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-8">
+
+              
+          <div class="social flex">
+            <div class="social1 flex">
+              <h3>Follow Us On</h3>
+              <ul class="flex">
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li> 
+              </ul>
+            </div>
+            <div class="playstore flex">
+              <h3>Download the App</h3>
+              <img src="./IMG/image 2.png" alt="">
+              <img src="./IMG/image 3.png" alt="">
+            </div>
+          </div>
+
+          </div>
+          <div class="col-lg-2"></div>
+      </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script>
+      const ctx = document.getElementById("myChart");
+
+new Chart(c1, {
+  type: "pie",
+
+  data: {
+    datasets: [
+      {
+        label: "# of Votes",
+        data: [11,14,60,12],
+        borderWidth: 1,
+        backgroundColor: ["#1F6ABB","#FBBA00","#EC6608", "#9013FE"],
+      },
+    ],
+  },
+});
+
+
+</script>
+<script>
+
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title:{
+		text: "Crude Oil Reserves vs Production, 2016"
+	},	
+	axisY: {
+		title: "Billions of Barrels",
+		titleFontColor: "#EC6608",
+		lineColor: " #FBBA00",
+		labelFontColor: "#4F81BC",
+		tickColor: "#4F81BC"
+	},
+	axisY2: {
+		title: "Millions of Barrels/day",
+		titleFontColor: "# #FBBA00",
+		lineColor: "#C0504E",
+		labelFontColor: " #FBBA00",
+		tickColor: "#FBBA00"
+	},	
+	toolTip: {
+		shared: true
+	},
+	legend: {
+		cursor:"pointer",
+		itemclick: toggleDataSeries
+	},
+	data: [{
+		type: "column",
+		name: "Lead",
+		legendText: "Sort by Last 6 Months",
+		showInLegend: true, 
+		dataPoints:[
+			{ label: "January", y: 266.21 },
+			{ label: "Feburary", y: 302.25 },
+			{ label: "March", y: 157.20 },
+			{ label: "April", y: 148.77 },
+			{ label: "May", y: 101.50 },
+			{ label: "June", y: 97.8 }
+		]
+	},
+  {
+		type: "column",
+		name: "Proven Oil Reserves (bn)",
+		legendText: "Proven Oil Reserves",
+		showInLegend: true, 
+		dataPoints:[
+			{ label: "january", y: 190.21 },
+			{ label: "Feburary", y: 200.25 },
+			{ label: "March", y: 150.20 },
+			{ label: "April", y: 140.77 },
+			{ label: "May", y: 60.50 },
+			{ label: "June", y: 60.8 }
+		]
+	},
+	{
+		type: "column",	
+		name: "Oil Production (million/day)",
+		legendText: "Oil Production",
+		axisYType: "secondary",
+
+		showInLegend: true,
+		dataPoints:[
+			{ label: "january", y: 10.46 },
+			{ label: "Feburary", y: 2.27 },
+			{ label: "March", y: 3.99 },
+			{ label: "April", y: 4.45 },
+			{ label: "May", y: 2.92 },
+			{ label: "June", y: 3.1 }
+		]
+	}]
+});
+
+chart.render();
+
+function toggleDataSeries(e) {
+	if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+		e.dataSeries.visible = false;
+	}
+	else {
+		e.dataSeries.visible = true;
+	}
+	chart.render();
+}
+
+}
+
+</script>
+
+  </body>
+</html>
